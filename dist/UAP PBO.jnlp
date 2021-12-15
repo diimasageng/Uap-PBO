@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="UAP PBO.jnlp">
+  <information>
+    <title>UAP PBO</title>
+    <vendor>Windosw</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\mysql-connector-java-5.1.23-bin.jar" size="843090" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="uap.pbo.UAPPBO"  name="UAP PBO" />
+  <update check="always"/>
+</jnlp>
